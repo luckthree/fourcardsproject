@@ -1,0 +1,44 @@
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(250, 250, 250);
+}
+
+#headers h2 {
+    color: hsl(234, 12%, 34%);
+    font-size: 2.5em;
+}
+
+.slim {
+    font-weight: 200;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.content {
+    text-align: center;
+}
+
+.subtext {
+    text-align: center;
+    font-weight: 400;
+    color: hsl(229, 6%, 66%);
+}
+
+@media (max-width: 600px) {
+    #headers h2 {
+        font-size: 1.5em;
+    }
+    #content {
+        font-size: 0.9em;
+    }
+}
