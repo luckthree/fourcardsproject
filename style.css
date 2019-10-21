@@ -1,11 +1,3 @@
-.attribution { 
-    font-size: 11px; text-align: center; 
-}
-
-.attribution a { 
-    color: hsl(228, 45%, 44%); 
-}
-
 body {
     font-family: 'Poppins', sans-serif;
     background-color: rgb(250, 250, 250);
@@ -18,6 +10,13 @@ body {
 
 div #footer {
     font-size: 0.9em;
+    background: rgb(245, 245, 245);
+    font-weight: 400;
+}
+
+a:hover {
+    text-decoration: none;
+    color: hsl(228, 45%, 44%);
 }
 
 .slim {
@@ -42,10 +41,11 @@ div #footer {
     #headers h2 {
         font-size: 1.5em;
     }
-    .content {
-        font-size: 0.9em;
+    .subtext {
+        font-size: 0.75em;
     }
     div #footer {
-        font-size: 0.5em;
+        font-size: 0.6em;
+        font-weight:  400;
     }
 }
