@@ -16,6 +16,10 @@ body {
     font-size: 2.5em;
 }
 
+div #footer {
+    font-size: 0.9em;
+}
+
 .slim {
     font-weight: 200;
 }
@@ -38,7 +42,10 @@ body {
     #headers h2 {
         font-size: 1.5em;
     }
-    #content {
+    .content {
         font-size: 0.9em;
+    }
+    div #footer {
+        font-size: 0.5em;
     }
 }
