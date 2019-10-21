@@ -39,7 +39,7 @@ a:hover {
 
 @media (max-width: 600px) {
     #headers h2 {
-        font-size: 1.5em;
+        font-size: 1.4em;
     }
     .subtext {
         font-size: 0.75em;
